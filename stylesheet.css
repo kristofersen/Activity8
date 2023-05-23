@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.navbar {
+    background-color: orange;
+    overflow: hidden;
+  }
+  
+  .navbar a{
+    float: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-logo img {
+    vertical-align: middle;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding-top: 1rem;
+    overflow: hidden;
+    background-color: orange;
+  }
+  
+  .navbar li {
+    float: right;
+    vertical-align: middle;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1rem;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgb(197, 128, 1);
+  }
+
+  .sidebar {
+    background-color: yellow;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    top: 100px;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar li {
+    margin-bottom: 1px;
+  }
+  
+  .sidebar li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .sidebar li a:hover {
+    background-color: rgb(199, 199, 0);
+  }
+
+  .menu {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .group0 {
+    display: flex;
+    margin-left: 2rem;
+    padding: 3rem;
+    justify-content: space-around;
+  }
+
+  .group0 a{
+    color: black;
+    text-decoration: none;
+
+  }
+
+  .group1 {
+    display: flex;
+    margin-left: 2rem;
+    padding: 3rem;
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .bottombar {
+    background-color: orange;
+    position: fixed;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottombar p {
+    text-align: center;
+  }
